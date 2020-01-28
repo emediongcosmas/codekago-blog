@@ -1,4 +1,5 @@
 <?php
+$page = "Login";
 
 $views = array("login", "register", "home");
     if($routes[2] != ''){

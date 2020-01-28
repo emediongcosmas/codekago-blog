@@ -35,3 +35,7 @@ $views = array("blog", "blog-details");
         require 'views/partials/footer.php';
         
     }
+     
+
+
+    

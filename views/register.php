@@ -1,5 +1,5 @@
 <?php
-
+$page = "Register";
 if($routes[0] != ''){
     $views = array("login", "register");
 

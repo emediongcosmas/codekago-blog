@@ -33,4 +33,7 @@ $views = array("blog-details");
     }else{
         require 'views/partials/header.php';
         require 'views/'.$view.'/'.$view.'.php';
-        require 'views/partials/footer.php
+        require 'views/partials/footer.php';
+    }
+
+    
