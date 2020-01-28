@@ -2,3 +2,7 @@ host = localhost
 user = root
 password = emediong1
 dbname = codekago-blog
+
+admin login:
+email: emediongcosmas1@gmail.com 
+password: emediong1
