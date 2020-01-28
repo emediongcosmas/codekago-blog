@@ -20,11 +20,11 @@
                 Posted <a href="#"><time class="timeago" datetime="<?=$post['timestamp'];?>"></time></a> 
                 <!-- in <a href="page-category.html">Journey</a> -->
               </div>
-              <a href="post-details?article=<?= $post['slug']; ?>#disqus_thread">
+              <a href="blog-details?article=<?= $post['slug']; ?>#disqus_thread">
                 <h4 class="card-title"><?= $post['title']; ?></h4>
               </a>
             </header>
-            <a href="post-details?article=<?= $post['slug']; ?>#disqus_thread" data-json="{ 'id':'<?= $post['id'];?>'}">
+            <a href="blog-details?article=<?= $post['slug']; ?>#disqus_thread" data-json="{ 'id':'<?= $post['id'];?>'}">
               <img class="card-img" src="assets/img/<?= $post['photo']; ?>" alt="" />
             </a>
             <div class="card-body">
@@ -37,10 +37,6 @@
 
           <aside class="sidebar">
             <div class="card mb-4">
-              <div class="card-body">
-                <h4 class="card-title">About</h4>
-                <p class="card-text"></p>
-              </div>
             </div><!-- /.card -->
           </aside>
 

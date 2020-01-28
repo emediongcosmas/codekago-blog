@@ -44,7 +44,23 @@ class post {
         
     }
     
-    public static function FetchSinglePost($slug) {
+    public static function FetchPost($id) {
+        
+        global $db;
+        
+        $param = array(
+            'id' => $id
+        );
+        
+        $post = $db->query("SELECT * FROM post WHERE id = :id", $param, false, $fetch = true, $fetchmode = PDO::FETCH_ASSOC);
+         
+            if($post){
+                return $post;
+            }
+        
+    }
+    
+     public static function FetchSinglePost($slug) {
         
         global $db;
         
@@ -64,6 +80,8 @@ class post {
     {
         
         global $db;
+        $upload = upload::add($photo, 'assets/img/', true);
+        $photo = $upload['file'];
         
         $slug = request::slug($title);
         

@@ -20,7 +20,7 @@
               </a>
             </header>
             <a href="post-image.html">
-              <img class="card-img" src="img/articles/1.jpg" alt="" />
+              <img class="card-img" src="assets/img/<?= $post['photo']; ?>" alt="" />
             </a>
             <div class="card-body">
 

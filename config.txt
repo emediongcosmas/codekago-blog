@@ -1,0 +1,4 @@
+host = localhost
+user = root
+password = emediong1
+dbname = codekago-blog

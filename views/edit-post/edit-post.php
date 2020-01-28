@@ -14,9 +14,9 @@
         
     // This will fetch the note to be edited from the database
     if(isset($_POST['id'])){
-        $post   = post::FetchSinglepost($_POST['id']);
+        $post   = post::FetchPost($_POST['id']);
         $title  = $post['title'];
-        $body   = $post['body']; 
+        $body   = $post['body'] 
 ?>
  
 <div class="container-fluid">
