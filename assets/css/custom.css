@@ -1,0 +1,7 @@
+#header{
+    width:100%; 
+    /* background: url(yourimage); */
+}
+#headerContent{
+    margin: 0 auto; width: 960px;
+}

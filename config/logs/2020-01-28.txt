@@ -1,0 +1,300 @@
+Time : 14:51:08
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.state' doesn't exist
+Raw SQL : SELECT * FROM state WHERE state_id = :state_id
+
+Time : 14:35:12
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE post SET title = :title, body = :body, timestamp = :timestamp, slug = :slug   
+                               WHERE id = :id
+
+Time : 14:34:40
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE post SET title = :title, body = :body, timestamp = :timestamp, slug = :slug   
+                               WHERE id = :id
+
+Time : 14:34:29
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.note' doesn't exist
+Raw SQL : UPDATE note SET title = :title, body = :body, timestamp = :timestamp, slug = :slug   
+                               WHERE id = :id
+
+Time : 14:34:14
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.note' doesn't exist
+Raw SQL : UPDATE note SET title = :title, body = :body, timestamp = :timestamp, slug = :slug   
+                               WHERE id = :id
+
+Time : 14:34:11
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.note' doesn't exist
+Raw SQL : UPDATE note SET title = :title, body = :body, timestamp = :timestamp, slug = :slug   
+                               WHERE id = :id
+
+Time : 14:33:48
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.note' doesn't exist
+Raw SQL : UPDATE note SET title = :title, body = :body, timestamp = :timestamp, slug = :slug   
+                               WHERE id = :id
+
+Time : 14:33:26
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.note' doesn't exist
+Raw SQL : UPDATE note SET title = :title, body = :body, timestamp = :timestamp, slug = :slug   
+                               WHERE id = :id
+
+Time : 14:09:46
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.categories' doesn't exist
+Raw SQL : SELECT * FROM categories WHERE id = :id
+
+Time : 13:59:54
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.post' doesn't exist
+Raw SQL : INSERT INTO post (user_id, title, body, photo, slug, timestamp) VALUES (:user_id, :title, :body, :photo, :slug, :timestamp)
+
+Time : 13:59:41
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.post' doesn't exist
+Raw SQL : INSERT INTO post (user_id, title, body, photo, slug, timestamp) VALUES (:user_id, :title, :body, :photo, :slug, :timestamp)
+
+Time : 13:56:39
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.post' doesn't exist
+Raw SQL : INSERT INTO post (user_id, title, body, photo, slug, timestamp) VALUES (:user_id, :title, :body, :photo, :slug, :timestamp)
+
+Time : 13:36:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.state' doesn't exist
+Raw SQL : SELECT * FROM state WHERE state_id = :state_id
+
+Time : 13:35:51
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.state' doesn't exist
+Raw SQL : SELECT * FROM state WHERE state_id = :state_id
+
+Time : 12:34:54
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO user (firstname, lastname, email, password, 
+            state_id, phone, timestamp) VALUE (:firstname, :lastname, 
+            :email, :password, :timestamp)
+
+Time : 12:33:38
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO user (firstname, lastname, email, password, 
+            state_id, phone, timestamp) VALUE (:firstname, :lastname, 
+            :email, :password, :timestamp)
+
+Time : 12:32:41
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO user (firstname, lastname, email, password, 
+            state_id, phone, timestamp) VALUE (:firstname, :lastname, 
+            :email, :password, :timestamp)
+
+Time : 12:29:26
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.state' doesn't exist
+Raw SQL : SELECT * FROM state WHERE state_id = :state_id
+
+Time : 12:29:06
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.state' doesn't exist
+Raw SQL : SELECT * FROM state WHERE state_id = :state_id
+
+Time : 12:28:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.state' doesn't exist
+Raw SQL : SELECT * FROM state WHERE state_id = :state_id
+
+Time : 12:28:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.state' doesn't exist
+Raw SQL : SELECT * FROM state WHERE state_id = :state_id
+
+Time : 12:28:26
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.state' doesn't exist
+Raw SQL : SELECT * FROM state WHERE state_id = :state_id
+
+Time : 12:27:48
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:27:32
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:27:23
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:27:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:27:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:54
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:52
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:46
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 12:26:17
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codekago-blog.user' doesn't exist
+Raw SQL : SELECT * FROM user WHERE email = :email

@@ -1,0 +1,95 @@
+Time : 17:19:52
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 15:35:04
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO user (firstname, lastname, email, password, 
+            state_id, phone, timestamp) VALUE (:firstname, :lastname, 
+            :email, :password, :state_id, :phone)
+
+Time : 14:59:12
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 14:46:54
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 14:44:40
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 14:42:12
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 14:31:50
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user (firstname, lastname, email, password, 
+        state_id, phone, timestamp) VALUE (:firstname, :lastname, 
+        :email, :password, :state_id, :phone, :timestamp)
+
+Time : 14:27:19
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user (firstname, lastname, email, password, 
+        state_id, phone, timestamp) VALUE (:firstname, :lastname, 
+        :email, :password, :state_id, :phone, :timestamp)
+
+Time : 14:26:18
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user (firstname, lastname, email, password, 
+        state_id, phone, timestamp) VALUE (:firstname, :lastname, 
+        :email, :password, :state_id, :phone, :timestamp)
+
+Time : 14:25:00
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 14:18:50
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 14:12:55
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 14:00:57
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user WHERE email = :email
+
+Time : 13:51:27
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT COUNT(*) FROM user WHERE email = :email
+
+Time : 13:46:21
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT COUNT(*) FROM user WHERE email = :email
+
+Time : 13:37:41
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT COUNT(*) FROM user WHERE email = :email
+
+Time : 12:27:00
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state_id' in group statement is ambiguous
+Raw SQL : SELECT * FROM state, city GROUP BY state_id
+
+Time : 12:26:56
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state_id' in group statement is ambiguous
+Raw SQL : SELECT * FROM state, city GROUP BY state_id
+
+Time : 12:22:17
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state_id' in group statement is ambiguous
+Raw SQL : SELECT * FROM state, city GROUP BY state_id
+
+Time : 12:22:16
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state_id' in group statement is ambiguous
+Raw SQL : SELECT * FROM state, city GROUP BY state_id
+
+Time : 12:22:16
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state_id' in group statement is ambiguous
+Raw SQL : SELECT * FROM state, city GROUP BY state_id
+
+Time : 12:22:14
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state_id' in group statement is ambiguous
+Raw SQL : SELECT * FROM state, city GROUP BY state_id

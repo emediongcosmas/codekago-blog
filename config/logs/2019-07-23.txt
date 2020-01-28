@@ -1,0 +1,42 @@
+Time : 17:47:29
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'photo' cannot be null
+Raw SQL : INSERT INTO post (user_id, title, description, photo, categories_id, slug, timestamp) VALUES (:user_id, :title, :description, :photo, :categories_id, :slug, :timestamp)
+
+Time : 17:09:05
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO post (activity_id, user_id, title, description, photo, categories_id, slug, timestamp) VALUE (:activity_id, :user_id, :title, :description, :photo, :categories_id, :slug, :timestamp)
+
+Time : 17:08:15
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO post (activity_id, user_id, title, description, photo, categories_id, slug, timestamp) VALUE (:activity_id, :user_id, :title, :description, :photo, :categories_id, :slug, :timestamp)
+
+Time : 16:07:53
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO post (activity_id, user_id, title, description, photo, categories_id, slug, timestamp) VALUE (:firstname, :lastname,  
+        :email, :password, :state_id, :phone, :timestamp)
+
+Time : 16:07:21
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO post (activity_id, user_id, title, description, photo, categories_id, slug, timestamp) VALUE (:firstname, :lastname,  
+        :email, :password, :state_id, :phone, :timestamp)
+
+Time : 16:02:28
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO post (activity_id, user_id, title, description, photo, categories_id, slug, timestamp) VALUE (:firstname, :lastname,  
+        :email, :password, :state_id, :phone, :timestamp)
+
+Time : 16:01:48
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO post (activity_id, user_id, title, description, photo, categories_id, slug, timestamp) VALUE (:firstname, :lastname,  
+        :email, :password, :state_id, :phone, :timestamp)
+
+Time : 15:41:26
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO post (activity_id, user_id, title, description, photo, categories_id, slug, timestamp) VALUE (:firstname, :lastname, 
+        :email, :password, :state_id, :phone, :timestamp)
+
+Time : 14:56:50
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user (firstname, lastname, email, password, 
+        state_id, phone, timestamp) VALUE (:firstname, :lastname, 
+        :email, :password, :state_id, :phone, :timestamp)
